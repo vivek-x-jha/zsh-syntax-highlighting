@@ -2,7 +2,7 @@
 
 # *******************************************************************************
 # Author: Vivek Jha
-# Last Modified: Mar 10, 2024
+# Last Modified: Mar 12, 2024
 #
 # Custom theme for Zsh-syntax-highlighting plugin
 # TODO visualize hashed command
@@ -15,13 +15,13 @@ ZSH_HIGHLIGHT_STYLES[global-alias]=fg=225
 ZSH_HIGHLIGHT_STYLES[builtin]=fg=225
 ZSH_HIGHLIGHT_STYLES[function]=fg=12
 ZSH_HIGHLIGHT_STYLES[command]=fg=225
-ZSH_HIGHLIGHT_STYLES[precommand]=fg=3
+ZSH_HIGHLIGHT_STYLES[precommand]=fg=5
 ZSH_HIGHLIGHT_STYLES[commandseparator]=fg=8
 ZSH_HIGHLIGHT_STYLES[hashed-command]=fg=196
 ZSH_HIGHLIGHT_STYLES[autodirectory]=fg=12
 ZSH_HIGHLIGHT_STYLES[path]=fg=12
 ZSH_HIGHLIGHT_STYLES[path_pathseparator]=fg=8
-ZSH_HIGHLIGHT_STYLES[path_prefix]=fg=159
+ZSH_HIGHLIGHT_STYLES[path_prefix]=fg=14
 # ZSH_HIGHLIGHT_STYLES[path_prefix_pathseparator]=fg=165
 ZSH_HIGHLIGHT_STYLES[globbing]=fg=7
 ZSH_HIGHLIGHT_STYLES[history-expansion]=fg=
@@ -33,7 +33,7 @@ ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-unquoted]=fg=2
 ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-quoted]=fg=2
 ZSH_HIGHLIGHT_STYLES[process-substitution]=fg=2
 ZSH_HIGHLIGHT_STYLES[process-substitution-delimiter]=fg=2
-ZSH_HIGHLIGHT_STYLES[arithmetic-expansion]=fg=
+ZSH_HIGHLIGHT_STYLES[arithmetic-expansion]=fg=14
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]=fg=3
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]=fg=3
 ZSH_HIGHLIGHT_STYLES[back-quoted-argument]=fg=2
