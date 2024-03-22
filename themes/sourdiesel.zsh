@@ -43,12 +43,12 @@ ZSH_HIGHLIGHT_STYLES[single-quoted-argument]=fg=green
 ZSH_HIGHLIGHT_STYLES[single-quoted-argument-unclosed]=fg=red
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument]=fg=green
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]=fg=red
-ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]=fg=black
+ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument-unclosed]=fg=red
 ZSH_HIGHLIGHT_STYLES[rc-quote]=fg=green
-ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]=fg=black
-ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]=fg=green
-ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]=fg=green
+ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]=fg=yelllow
 ZSH_HIGHLIGHT_STYLES[assign]=fg=white
 ZSH_HIGHLIGHT_STYLES[redirection]=fg=white
 ZSH_HIGHLIGHT_STYLES[comment]=fg=8
