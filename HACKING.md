@@ -2,7 +2,7 @@ Hacking on zsh-syntax-highlighting itself
 =========================================
 
 This document includes information for people working on z-sy-h itself: on the
-core driver (`zsh-syntax-highlighting.zsh`), on the highlighters in the
+core driver (`zsh-syntax-highlighting.plugin.zsh`), on the highlighters in the
 distribution, and on the test suite.  It does not target third-party
 highlighter authors (although they may find it an interesting read).
 
@@ -86,7 +86,7 @@ cross-referenced issues.
 Miscellany
 ----------
 
-If you work on the driver (`zsh-syntax-highlighting.zsh`), you may find the following zstyle useful:
+If you work on the driver (`zsh-syntax-highlighting.plugin.zsh`), you may find the following zstyle useful:
 
 ```zsh
 zstyle ':completion:*:*:*:*:globbed-files' ignored-patterns {'*/',}zsh-syntax-highlighting.plugin.zsh

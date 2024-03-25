@@ -34,7 +34,7 @@ setopt NO_UNSET WARN_CREATE_GLOBAL
 # Required for add-zle-hook-widget.
 zmodload zsh/zle
 
-local -r root=${0:h:h}
+local -r root=${0:A:h:h}
 local -a anon_argv; anon_argv=("$@")
 
 (){
@@ -77,7 +77,7 @@ print > >($results_filter | $root/tests/tap-colorizer.zsh) -r -- "1..1"
 alias -- +plus=plus
 alias -- _other=other
 local original_alias_dash_L_output="$(alias -L)"
-. $root/zsh-syntax-highlighting.zsh
+. $root/zsh-syntax-highlighting.plugin.zsh
 if [[ $original_alias_dash_L_output == $(alias -L) ]]; then
   print -r -- "ok 1 # 'alias -- +foo=bar' is preserved"
 else

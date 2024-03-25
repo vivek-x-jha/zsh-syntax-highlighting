@@ -29,8 +29,8 @@
 # -------------------------------------------------------------------------------------------------
 
 # Load the main script.
-typeset -a region_highlight
-. ${0:h:h}/zsh-syntax-highlighting.zsh
+declare -a region_highlight
+source ${0:A:h:h}/zsh-syntax-highlighting.plugin.zsh
 
 # Activate the highlighter.
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main)
@@ -66,7 +66,7 @@ run_test() {
   __tests_tempdir="$(mktemp -d)" && [[ -d $__tests_tempdir ]] || {
     echo >&2 "Bail out! mktemp failed"; return 1
   }
-  typeset -r __tests_tempdir # don't allow tests to override the variable that we will 'rm -rf' later on
+  declare -r __tests_tempdir # don't allow tests to override the variable that we will 'rm -rf' later on
 
   {
     (run_test_internal "$__tests_tempdir" "$@")

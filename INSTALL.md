@@ -39,19 +39,19 @@ Second, enable zsh-syntax-highlighting by sourcing the script. Running this comm
 * On most Linux distributions (except perhaps NixOS):
 
     ```zsh
-    echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+    echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
     ```
 
 * NetBSD and OpenBSD:
 
     ```zsh
-    echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+    echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
     ```
 
 * Mac OS X / Homebrew:
 
     ```zsh
-    echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+    echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
     ```
 
 Then restart zsh (such as by opening a new instance of your terminal emulator).
@@ -59,9 +59,9 @@ Then restart zsh (such as by opening a new instance of your terminal emulator).
  Alternatively, add the `source` command manually **at the end** of your `.zshrc`:
 
 * On most Linux distributions (except perhaps NixOS):
-`source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+`source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh`
 * NetBSD and OpenBSD:
-`source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+`source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh`
 
 Then restart zsh.
 
@@ -71,13 +71,13 @@ Simply clone this repository and source the script:
 
 ```zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
 
   Then, enable syntax highlighting in the current interactive shell:
 
 ```zsh
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 ```
 
   If `git` is not installed, download and extract a snapshot of the latest
@@ -163,7 +163,7 @@ make install
 and directing your users to add
 
 ```zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 ```
 
 to their `.zshrc`s.

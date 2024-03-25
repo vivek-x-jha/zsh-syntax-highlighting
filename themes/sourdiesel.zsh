@@ -2,20 +2,20 @@
 
 # ****************************************************************
 # Author: Vivek Jha
-# Last Modified: Mar 24, 2024
+# Last Modified: Mar 25, 2024
 #
 # Custom theme for Zsh-syntax-highlighting plugin
 # TODO visualize hashed command
 # ***************************************************************
 ZSH_HIGHLIGHT_STYLES[unknown-token]=fg=red
 ZSH_HIGHLIGHT_STYLES[reserved-word]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[alias]=fg=10
-ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=10
-ZSH_HIGHLIGHT_STYLES[global-alias]=fg=10
-ZSH_HIGHLIGHT_STYLES[builtin]=fg=10
-ZSH_HIGHLIGHT_STYLES[function]=fg=10
-ZSH_HIGHLIGHT_STYLES[command]=fg=10
-ZSH_HIGHLIGHT_STYLES[precommand]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[alias]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[global-alias]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[builtin]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[function]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[command]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[precommand]=fg=10
 ZSH_HIGHLIGHT_STYLES[commandseparator]=fg=black
 ZSH_HIGHLIGHT_STYLES[hashed-command]=fg=black
 ZSH_HIGHLIGHT_STYLES[autodirectory]=fg=blue

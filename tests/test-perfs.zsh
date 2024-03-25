@@ -39,20 +39,20 @@ zmodload zsh/zle
 }
 
 # Check the highlighter is valid.
-[[ -f ${0:h:h}/highlighters/$1/$1-highlighter.zsh ]] || {
+[[ -f ${0:A:h:h}/highlighters/$1/$1-highlighter.zsh ]] || {
   echo >&2 "Bail out! Could not find highlighter ${(qq)1}."
   exit 2
 }
 
 # Check the highlighter has test data.
-[[ -d ${0:h:h}/highlighters/$1/test-data ]] || {
+[[ -d ${0:A:h:h}/highlighters/$1/test-data ]] || {
   echo >&2 "Bail out! Highlighter ${(qq)1} has no test data."
   exit 2
 }
 
 # Load the main script.
 typeset -a region_highlight
-. ${0:h:h}/zsh-syntax-highlighting.zsh
+. ${0:A:h:h}/zsh-syntax-highlighting.plugin.zsh
 
 # Activate the highlighter.
 ZSH_HIGHLIGHT_HIGHLIGHTERS=($1)
@@ -95,7 +95,7 @@ run_test() {
 # Process each test data file in test data directory.
 local data_file
 TIMEFMT="%*Es"
-{ time (for data_file in ${0:h:h}/highlighters/$1/test-data/*.zsh; do
+{ time (for data_file in ${0:A:h:h}/highlighters/$1/test-data/*.zsh; do
   run_test "$data_file"
   (( $pipestatus[1] )) && exit 2
 done) } 2>&1 || exit $?

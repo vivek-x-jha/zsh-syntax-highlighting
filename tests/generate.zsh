@@ -48,7 +48,7 @@ fname=${0:A:h:h}/highlighters/$2/test-data/${3%.zsh}.zsh
 preamble=${4:-""}
 
 # Load the main script.
-. ${0:A:h:h}/zsh-syntax-highlighting.zsh
+source ${0:A:h:h}/zsh-syntax-highlighting.plugin.zsh
 
 # Overwrite _zsh_highlight_add_highlight so we get the key itself instead of the style
 _zsh_highlight_add_highlight()
