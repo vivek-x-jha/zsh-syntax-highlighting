@@ -7,15 +7,15 @@
 # Custom theme for Zsh-syntax-highlighting plugin
 # TODO visualize hashed command
 # ***************************************************************
-ZSH_HIGHLIGHT_STYLES[unknown-token]=fg=red
+ZSH_HIGHLIGHT_STYLES[unknown-token]=fg=9
 ZSH_HIGHLIGHT_STYLES[reserved-word]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[alias]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[global-alias]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[builtin]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[function]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[command]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[precommand]=fg=10
+ZSH_HIGHLIGHT_STYLES[alias]=fg=10
+ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=10
+ZSH_HIGHLIGHT_STYLES[global-alias]=fg=10
+ZSH_HIGHLIGHT_STYLES[builtin]=fg=10
+ZSH_HIGHLIGHT_STYLES[function]=fg=10
+ZSH_HIGHLIGHT_STYLES[command]=fg=10
+ZSH_HIGHLIGHT_STYLES[precommand]=fg=3
 ZSH_HIGHLIGHT_STYLES[commandseparator]=fg=black
 ZSH_HIGHLIGHT_STYLES[hashed-command]=fg=black
 ZSH_HIGHLIGHT_STYLES[autodirectory]=fg=blue
@@ -25,27 +25,27 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=fg=12
 # ZSH_HIGHLIGHT_STYLES[path_prefix_pathseparator]=fg=165
 ZSH_HIGHLIGHT_STYLES[globbing]=fg=white
 ZSH_HIGHLIGHT_STYLES[history-expansion]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[command-substitution]=fg=green
-ZSH_HIGHLIGHT_STYLES[command-substitution-unquoted]=fg=green
-ZSH_HIGHLIGHT_STYLES[command-substitution-quoted]=fg=green
-ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter]=fg=green
-ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-unquoted]=fg=green
-ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-quoted]=fg=green
-ZSH_HIGHLIGHT_STYLES[process-substitution]=fg=green
-ZSH_HIGHLIGHT_STYLES[process-substitution-delimiter]=fg=green
-ZSH_HIGHLIGHT_STYLES[arithmetic-expansion]=fg=cyan
+ZSH_HIGHLIGHT_STYLES[command-substitution]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[command-substitution-unquoted]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[command-substitution-quoted]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter]=fg=11
+ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-unquoted]=fg=11
+ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-quoted]=fg=11
+ZSH_HIGHLIGHT_STYLES[process-substitution]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[process-substitution-delimiter]=fg=11
+ZSH_HIGHLIGHT_STYLES[arithmetic-expansion]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]=fg=yellow
-ZSH_HIGHLIGHT_STYLES[back-quoted-argument]=fg=green
-ZSH_HIGHLIGHT_STYLES[back-quoted-argument-unclosed]=fg=red
-ZSH_HIGHLIGHT_STYLES[back-quoted-argument-delimiter]=fg=green
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument]=fg=green
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument-unclosed]=fg=red
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument]=fg=green
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]=fg=red
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument-unclosed]=fg=9
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument-delimiter]=fg=11
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument-unclosed]=fg=9
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]=fg=9
 ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]=fg=yellow
-ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument-unclosed]=fg=red
-ZSH_HIGHLIGHT_STYLES[rc-quote]=fg=green
+ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument-unclosed]=fg=9
+ZSH_HIGHLIGHT_STYLES[rc-quote]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]=fg=yelllow
@@ -54,5 +54,5 @@ ZSH_HIGHLIGHT_STYLES[redirection]=fg=white
 ZSH_HIGHLIGHT_STYLES[comment]=fg=8
 ZSH_HIGHLIGHT_STYLES[named-fd]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[numeric-fd]=fg=yellow
-ZSH_HIGHLIGHT_STYLES[arg0]=fg=green
+ZSH_HIGHLIGHT_STYLES[arg0]=fg=yellow
 
